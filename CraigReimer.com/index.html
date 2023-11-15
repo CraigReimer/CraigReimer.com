@@ -6,10 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link
             rel="stylesheet"
-            href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         />
         <link rel="stylesheet" href="assets/css/styles.css" />
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <title>Craig Reimer | Developer Portfolio</title>
     </head>
     <!--
@@ -21,38 +20,80 @@
     <body>
         <header>
             <!-- Navigation Bar -->
-            <nav class="navbar topnav navbar-fixed-top" role="navigation">
-                <div class="container topnav">
-                    <div class="navbar-header">
-                        <button
-                            type="button"
-                            class="navbar-toggle"
-                            data-toggle="collapse"
-                            data-target="#topnav"
-                        >
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand topnav" href="index.html"
-                            >Craig Reimer</a
-                        >
-                        <a class="navbar-brand topnav" href="#">Skills</a
-                        ><a class="navbar-brand topnav" href="#">Featured</a>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container">
+                    <a class="navbar-brand" href="#">Home</a>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#navbarNav"
+                        aria-controls="navbarNav"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Skills</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Featured</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </nav>
         </header>
 
         <!-- Main Content -->
-        <main></main>
+        <main>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <section class="">
+                            <h1>Craig Reimer</h1>
+                        </section>
+                    </div>
+                </div>
+                <!-- .row -->
+                <div class="row">
+                    <div class="col-md-8">
+                        <p>
+                            I am an undergraduate student at Fox Valley
+                            Technical College pursuing a degree in Software
+                            Development. I am passionate about learning new
+                            things and creating apps that empower people.
+                        </p>
+                    </div>
+                </div>
+                <!-- .row -->
+            </div>
+            <!-- .container -->
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="custom-card">
+                            <div class="card-body">
+                                <h5 class="card-title">Project</h5>
+                                <p class="card-text">Description of Project</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- .row -->
+            </div>
+            <!-- .container -->
+        </main>
 
         <!-- Footer -->
         <footer class="bg-dark text-light p-4">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-3">
+                    <div class="col-md-2">
                         <img
                             id="logo"
                             src="assets/img/craigLion.webp"
@@ -72,7 +113,7 @@
                                     href="#"
                                     title="Site Feedback"
                                     class="text-light"
-                                    >Contact our Web Team</a
+                                    >Contact Me</a
                                 >
                             </p>
                         </address>
@@ -80,5 +121,8 @@
                 </div>
             </div>
         </footer>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     </body>
 </html>
