@@ -4,35 +4,81 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Hello World</title>
-        <style></style>
+        <link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+        />
+        <link rel="stylesheet" href="assets/css/styles.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <title>Craig Reimer | Developer Portfolio</title>
     </head>
+    <!--
+        Author: Craig Reimer
+        First Published Date: 11/15/2023
+        Last Updated Date: 11/15/2023
+        Purpose: This is a developer portfolio site for the author.
+    -->
     <body>
         <header>
-            <h1>This is my web page.</h1>
-            <p>You are going to be <strong>amazed!</strong></p>
+            <!-- Navigation Bar -->
+            <nav class="navbar topnav navbar-fixed-top" role="navigation">
+                <div class="container topnav">
+                    <div class="navbar-header">
+                        <button
+                            type="button"
+                            class="navbar-toggle"
+                            data-toggle="collapse"
+                            data-target="#topnav"
+                        >
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand topnav" href="index.html"
+                            >Craig Reimer</a
+                        >
+                        <a class="navbar-brand topnav" href="#">Skills</a
+                        ><a class="navbar-brand topnav" href="#">Featured</a>
+                    </div>
+                </div>
+            </nav>
         </header>
+
+        <!-- Main Content -->
+        <main></main>
+
+        <!-- Footer -->
+        <footer class="bg-dark text-light p-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <img
+                            id="logo"
+                            src="assets/img/craigLion.webp"
+                            alt="a stone porch lion wearing sunglasses, a hat, and a scarf"
+                            width="100px"
+                            height="100px"
+                        />
+                    </div>
+                    <div class="col-md-9">
+                        <p class="mb-1">
+                            <small>&copy;2023 Craig Reimer</small>
+                        </p>
+                        <address>
+                            <p class="mb-0">
+                                Have questions or comments about the site?<br />
+                                <a
+                                    href="#"
+                                    title="Site Feedback"
+                                    class="text-light"
+                                    >Contact our Web Team</a
+                                >
+                            </p>
+                        </address>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </body>
-    <hr />
-    <br />
-    <footer>
-        <img
-            src="assets/img/craigLion.webp"
-            alt="a stone porch lion wearing sunglass, a hat, and a scarf"
-            width="100px"
-            height="100px"
-        />
-        <div>
-            <p><small>&copy;2023 Craig Reimer</small></p>
-            <address>
-                <p>
-                    Have questions or comments about the site?<br /><a
-                        href="#"
-                        title="Site Feedback"
-                        >Contact our Web Team</a
-                    >
-                </p>
-            </address>
-        </div>
-    </footer>
 </html>

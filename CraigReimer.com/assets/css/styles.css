@@ -1,0 +1,48 @@
+/*
+* Author: Craig Reimer
+* Last Updated: 11/15/2023
+*/
+
+/* Landing Page Styles */
+
+/*  Footer Styling  */
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75em;
+    padding: 1em;
+    margin-top: 2em;
+}
+
+.footer_nav ul {
+    list-style-type: none;
+    padding: 1em 0;
+    margin: 0 0 0 6em;
+}
+
+.footer_nav li {
+    padding: 1em;
+}
+
+.footer_nav a:link,
+.footer_nav a:visited {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.footer_nav a:hover,
+.footer_nav a:active {
+    text-shadow: -0.5em 0.5em 0.25em #22f754;
+    text-decoration: underline;
+}
+
+footer > div {
+    justify-content: center;
+}
+
+#logo {
+    margin-right: 20px;
+}
