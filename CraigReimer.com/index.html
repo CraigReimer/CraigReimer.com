@@ -29,7 +29,9 @@
     <body>
         <header>
             <!-- Navigation Bar -->
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav
+                class="navbar fixed-top navbar-expand-lg navbar-light bg-light"
+            >
                 <div class="container">
                     <a class="navbar-brand" href="#">Home</a>
                     <button
@@ -44,13 +46,25 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
                 </div>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#experience"
+                                >Experience</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#findMe">Find Me</a>
+                        </li>
+                    </ul>
+                </div>
             </nav>
         </header>
 
         <!-- Main Content -->
         <main>
-            <div class="container mb-5">
-                <section class="intro">
+            <div class="container pt-5 mb-5">
+                <section class="intro pt-5">
                     <div class="row">
                         <div class="col-md-12 mb-3">
                             <h1>Craig Reimer</h1>
@@ -58,6 +72,17 @@
                     </div>
                     <!-- .row -->
                     <div class="row">
+                        <!-- Image column on the right for large screens -->
+                        <div class="col-md-4 order-md-last">
+                            <img
+                                class="img-fluid"
+                                src="assets/img/craig.png"
+                                alt="A profile photo of Craig Reimer"
+                                height="350px"
+                                width="350px"
+                            />
+                        </div>
+                        <!-- Text content column -->
                         <div class="col-md-8">
                             <h3>About Me</h3>
                             <p>
@@ -90,17 +115,13 @@
                             <p>
                                 This website is a work in progress, and probably
                                 always will be, just like me. As I gain new
-                                skills, I will employ them in my projects.
+                                skills, I will employ them here. Once I have a
+                                project worth sharing, I will add it here as
+                                well.
                             </p>
-                        </div>
-                        <div class="col-md-4 centered">
-                            <img
-                                class="img-fluid"
-                                src="assets/img/craig.png"
-                                alt="A profile photo of Craig Reimer"
-                                height="350px"
-                                width="350px"
-                            />
+                            <p>
+                                Thank you for taking the time to read through!
+                            </p>
                         </div>
                     </div>
                     <!-- .row -->
@@ -108,7 +129,7 @@
             </div>
             <!-- .container -->
 
-            <div class="container mb-5 mt-auto">
+            <div class="container mb-5 mt-auto" id="experience">
                 <section class="experience">
                     <div class="row">
                         <div class="col-md-12 mb-2">
@@ -208,11 +229,11 @@
             </div>
             <!-- .container -->
 
-            <div class="container">
-                <section class="contact">
+            <div class="container" id="findMe">
+                <section class="findMe">
                     <div class="row">
                         <div class="col-md-12 mb-2">
-                            <h2>Find Me On Socials</h2>
+                            <h2>Find Me</h2>
                         </div>
                     </div>
                     <!-- .row -->
@@ -224,6 +245,14 @@
                                 <img
                                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
                                     alt="LinkedIn Logo"
+                                    height="50px"
+                                    width="50px"
+                                />
+                            </a>
+                            <a href="https://github.com/CraigReimer/">
+                                <img
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                                    alt="GitHub Logo"
                                     height="50px"
                                     width="50px"
                                 />
