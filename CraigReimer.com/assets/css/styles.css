@@ -17,8 +17,13 @@ h1 {
     padding-bottom: 2em;
 }
 
+section {
+    min-height: 300px;
+}
+
 .intro {
     align-items: center;
+    margin-bottom: 600px;
 }
 
 .intro img {
