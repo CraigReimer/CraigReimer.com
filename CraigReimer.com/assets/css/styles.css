@@ -1,6 +1,6 @@
 /*
 * Author: Craig Reimer
-* Last Updated: 11/15/2023
+* Last Updated: 12/14/2023
 */
 
 /* Landing Page Styles */
@@ -18,12 +18,11 @@ h1 {
 }
 
 section {
-    min-height: 300px;
+    min-height: 200px;
 }
 
 .intro {
     align-items: center;
-    margin-bottom: 600px;
 }
 
 .intro img {
@@ -31,19 +30,16 @@ section {
     width: 350px;
     height: 350px;
     padding: 0 2em;
+    margin: 1.5em;
     object-fit: cover;
 }
 
-.centered {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.experience img {
+.experience img,
+.connect img {
     width: 50px;
     height: 50px;
     margin-right: 1em;
+    margin-bottom: 1em;
 }
 
 .custom-card {
@@ -57,10 +53,18 @@ section {
     transform: translateY(-5px);
 }
 
+/*  Custom Styling  */
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /*  Footer Styling  */
 
 footer {
     font-size: 0.75em;
     padding: 1em;
-    margin-top: 6em;
+    margin-top: 1em;
 }
