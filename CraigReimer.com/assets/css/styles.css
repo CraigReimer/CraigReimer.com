@@ -10,6 +10,37 @@ h1 {
     margin-bottom: 1em;
 }
 
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.intro {
+    align-items: center;
+}
+
+.intro img {
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    padding: 0 2em;
+    object-fit: cover;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.experience img {
+    width: 50px;
+    height: 50px;
+    margin-right: 1em;
+}
+
 .custom-card {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -24,41 +55,7 @@ h1 {
 /*  Footer Styling  */
 
 footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     font-size: 0.75em;
     padding: 1em;
-    margin-top: 2em;
-}
-
-.footer_nav ul {
-    list-style-type: none;
-    padding: 1em 0;
-    margin: 0 0 0 6em;
-}
-
-.footer_nav li {
-    padding: 1em;
-}
-
-.footer_nav a:link,
-.footer_nav a:visited {
-    color: white;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-.footer_nav a:hover,
-.footer_nav a:active {
-    text-shadow: -0.5em 0.5em 0.25em #22f754;
-    text-decoration: underline;
-}
-
-footer > div {
-    justify-content: center;
-}
-
-#logo {
-    margin-right: 2em;
+    margin-top: 6em;
 }
