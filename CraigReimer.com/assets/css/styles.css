@@ -43,6 +43,9 @@ h1 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background-color: #f8f9fa;
     transition: transform 0.3s ease-in-out;
+    width: 75px;
+    height: 100px;
+    margin: 1em;
 }
 
 .custom-card:hover {
