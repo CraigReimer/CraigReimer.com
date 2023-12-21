@@ -1,7 +1,7 @@
 /*
 Author: Craig Reimer
-Purpose: Main JS file for the website
-Date: 12/20/2023
+Purpose: Main JS file for the website CraigReimer.com
+Date: 12/21/2023
 */
 
 // a function to load the biography
@@ -12,7 +12,7 @@ const bio = document.getElementById("bio");
 const shortBioParagraphs = [
     "I am passionate about learning new things and creating apps that empower people.",
     "My first app was a simple punchclock that I still use to log my hours while working from home. You can check it out on my Github.",
-    "While I originally learned HTML in the 90's, I just got back into coding and decided to return to school.",
+    "This website is hosted on Amazon S3. It is a work in progress, and probably always will be, just like me.",
 ];
 
 const longBioParagraphs = [
@@ -57,8 +57,7 @@ shortBtn.addEventListener("click", () => {
     bio.appendChild(shortBio);
 });
 
-// a function to load the exposure icons
-
+// an array to load the exposure icons
 const exposureIcons = [
     {
         href: "https://developer.mozilla.org/en-US/docs/Glossary/HTML5",
@@ -122,6 +121,7 @@ const exposureIcons = [
     },
 ];
 
+// an array to load the connect icons
 const connectIcons = [
     {
         href: "https://www.linkedin.com/in/craig-m-reimer/",
@@ -137,6 +137,7 @@ const connectIcons = [
     },
 ];
 
+// build the icon elements
 window.onload = function () {
     const exposureContainer = document.getElementById("techStack");
 
