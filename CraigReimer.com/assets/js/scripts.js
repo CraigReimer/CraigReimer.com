@@ -144,7 +144,7 @@ window.onload = function () {
     // build the Exposure Icons
     for (let i = 0; i < exposureIcons.length; i++) {
         let icon = document.createElement("div");
-        icon.classList.add("custom-card", "col-md-1");
+        icon.classList.add("custom-card", "col-md-1", "justify-content-center");
 
         let a = document.createElement("a");
         a.href = exposureIcons[i].href;
@@ -169,7 +169,7 @@ window.onload = function () {
     // build the Connect Icons
     for (let i = 0; i < connectIcons.length; i++) {
         let icon = document.createElement("div");
-        icon.classList.add("custom-card", "col-md-1");
+        icon.classList.add("custom-card", "col-md-1", "justify-content-center");
 
         let a = document.createElement("a");
         a.href = connectIcons[i].href;
@@ -188,4 +188,9 @@ window.onload = function () {
 
         connectContainer.appendChild(icon);
     }
+
+    // When a link in the navbar is clicked, collapse the navbar
+    $(".navbar-nav>li>a").on("click", function () {
+        $(".navbar-collapse").collapse("hide");
+    });
 };

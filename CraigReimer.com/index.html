@@ -30,7 +30,7 @@
     <body>
         <header>
             <!-- Navigation Bar -->
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar navbar-expand-md navbar-light bg-light">
                 <div class="container">
                     <a class="navbar-brand" href="#">Home</a>
                     <button
@@ -45,10 +45,16 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
                 </div>
-                <div class="collapse navbar-collapse" id="navbarNav">
+                <div
+                    class="collapse navbar-collapse flex-nowrap justify-content-between"
+                    id="navbarNav"
+                >
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
                             <a class="nav-link" href="#intro">Intro</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#aboutMe">About Me</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#exposure">Exposure</a>
@@ -63,12 +69,15 @@
 
         <!-- Main Content -->
         <main>
+            <!-- Intro Container -->
             <div class="container mb-5" id="intro">
+                <!-- .row -->
                 <div class="row">
                     <div class="col-md-8 mb-3 ml-auto mr-auto">
                         <h1>Craig Reimer</h1>
                     </div>
                 </div>
+                <!-- /.row -->
                 <section class="intro">
                     <!-- .row -->
                     <div class="row">
@@ -103,19 +112,21 @@
                             </p>
                         </div>
                     </div>
-                    <!-- .row -->
+                    <!-- /.row -->
                 </section>
             </div>
-            <!-- .container -->
+            <!-- /.container -->
 
-            <!-- About Me -->
+            <!-- About Me Container-->
             <div class="container mb-5 mt-auto" id="aboutMe">
                 <section class="aboutMe">
+                    <!-- .row -->
                     <div class="row">
                         <div class="col-md-12">
                             <h2>About Me</h2>
                         </div>
                     </div>
+                    <!-- /.row -->
                     <!-- .row -->
                     <div class="row mb-3">
                         <div class="col-md-12">
@@ -133,58 +144,70 @@
                             />
                         </div>
                     </div>
+                    <!-- /.row -->
                     <!-- .row -->
                     <div class="row">
                         <div class="col-md-12 mt-auto pt-2" id="bio"></div>
                     </div>
+                    <!-- /.row -->
                 </section>
             </div>
 
-            <!-- Exposure -->
+            <!-- Exposure Container-->
             <div class="container mb-5 mt-auto" id="exposure">
                 <section class="exposure">
+                    <!-- .row -->
                     <div class="row">
                         <div class="col-md-12 mb-2">
                             <h2>Exposure</h2>
                         </div>
                     </div>
+                    <!-- /.row -->
                     <!-- .row -->
                     <div class="row">
                         <div class="col-md-12 flex" id="techStack"></div>
                     </div>
-                    <!-- .row -->
+                    <!-- /.row -->
                 </section>
             </div>
-            <!-- .container -->
+            <!-- /.container -->
 
+            <!-- Connect Container -->
             <div class="container mb-5 mt-auto" id="connect">
                 <section class="connect">
+                    <!-- .row -->
                     <div class="row">
                         <div class="col-md-12 mb-2">
                             <h2>Connect With Me</h2>
                         </div>
                     </div>
+                    <!-- /.row -->
                     <!-- .row -->
                     <div class="row">
                         <div class="col-md-12 flex" id="socials"></div>
                     </div>
-                    <!-- .row -->
+                    <!-- /.row -->
                 </section>
             </div>
-            <!-- .container -->
+            <!-- /.container -->
 
+            <!-- .container -->
             <div class="container">
+                <!-- .row -->
                 <div class="row">
                     <div class="col-md-12 centered">
                         <a href="#">Back to Top</a>
                     </div>
                 </div>
+                <!-- /.row -->
             </div>
+            <!-- /.container -->
         </main>
 
         <!-- Footer -->
         <footer class="footer py-3 bg-light text-dark">
             <div class="container">
+                <!-- .row -->
                 <div class="row">
                     <div class="col-md-12 centered">
                         <img
@@ -197,6 +220,7 @@
                     </div>
                     <div class="col-md-9"></div>
                 </div>
+                <!-- /.row -->
                 <!-- .row -->
                 <div class="row">
                     <div class="col-md-12 centered">
@@ -205,6 +229,7 @@
                         </p>
                     </div>
                 </div>
+                <!-- /.row -->
             </div>
         </footer>
     </body>
