@@ -144,7 +144,7 @@ window.onload = function () {
     // build the Exposure Icons
     for (let i = 0; i < exposureIcons.length; i++) {
         let icon = document.createElement("div");
-        icon.classList.add("custom-card", "col-4", "justify-content-center");
+        icon.classList.add("custom-card", "justify-content-center");
 
         let a = document.createElement("a");
         a.href = exposureIcons[i].href;
@@ -155,6 +155,7 @@ window.onload = function () {
         img.alt = exposureIcons[i].imgAlt;
         img.height = "50px";
         img.width = "50px";
+        img.classList.add("img-fluid");
         a.appendChild(img);
 
         let caption = document.createElement("p");
@@ -169,7 +170,7 @@ window.onload = function () {
     // build the Connect Icons
     for (let i = 0; i < connectIcons.length; i++) {
         let icon = document.createElement("div");
-        icon.classList.add("custom-card", "col-4", "justify-content-center");
+        icon.classList.add("custom-card", "justify-content-center");
 
         let a = document.createElement("a");
         a.href = connectIcons[i].href;
@@ -180,6 +181,7 @@ window.onload = function () {
         img.alt = connectIcons[i].imgAlt;
         img.height = "50px";
         img.width = "50px";
+        img.classList.add("img-fluid");
         a.appendChild(img);
 
         let caption = document.createElement("p");
