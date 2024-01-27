@@ -37,12 +37,13 @@ h1 {
     margin: 1em;
 }
 
-.custom-card {
+.icon-card {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background-color: #f8f9fa;
     transition: transform 0.3s ease-in-out;
     min-width: 80px;
+    max-width: 100px;
     height: 115px;
     margin: 1em;
     text-align: center;
