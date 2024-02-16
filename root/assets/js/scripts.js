@@ -109,7 +109,7 @@ const exposureIcons = [
     },
     {
         href: "https://aws.amazon.com/",
-        imgSrc: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg",
+        imgSrc: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
         imgAlt: "Amazon Web Services Logo",
         text: "AWS",
     },
