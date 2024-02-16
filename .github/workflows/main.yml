@@ -26,4 +26,4 @@ jobs:
                   aws-region: us-east-2
 
             - name: Sync files to S3
-              run: aws s3 sync ./CraigReimer.com s3://craigreimer.com
+              run: aws s3 sync ./root s3://craigreimer.com
