@@ -3,36 +3,34 @@
     <head>
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+        />
         <link
             rel="stylesheet"
             href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         />
-        <link rel="stylesheet" href="assets/css/styles.css" />
 
         <link
             rel="stylesheet"
             href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
         />
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-        <script src="assets/js/scripts.js" defer></script>
+        <link rel="stylesheet" href="assets/css/styles.css" />
 
         <title>Craig Reimer | Developer Portfolio</title>
     </head>
     <!--
         Author: Craig Reimer
         First Published Date: 11/15/2023
-        Last Updated Date: 12/21/2023
+        Last Updated Date: 3/15/2024
         Purpose: This is a developer portfolio site for the author.
     -->
-    <body>
+    <body class="fill-dark">
         <header>
             <!-- Navigation Bar -->
-            <nav class="navbar navbar-expand-md navbar-light bg-light">
+            <nav class="navbar navbar-expand-md fixed-top">
                 <div class="container">
-                    <a class="navbar-brand" href="#">Home</a>
                     <button
                         class="navbar-toggler"
                         type="button"
@@ -49,7 +47,7 @@
                     class="collapse navbar-collapse flex-nowrap justify-content-between"
                     id="navbarNav"
                 >
-                    <ul class="navbar-nav ml-auto">
+                    <ul class="navbar-nav ml-auto px-4 fill-dark my-rounded">
                         <li class="nav-item">
                             <a class="nav-link" href="#intro">Intro</a>
                         </li>
@@ -69,28 +67,39 @@
 
         <!-- Main Content -->
         <main>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 centered">
-                        <img
-                            class="img-fluid"
-                            src="assets/img/CR_Dev.webp"
-                            alt="CR Developer"
-                            width="600px"
-                            height="294px"
-                        />
+            <!-- Landing Section -->
+            <section class="landing-section bg-split">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 offset-md-3">
+                            <div class="center-image">
+                                <img
+                                    class="logo-image img-fluid"
+                                    src="assets/img/CR_Dev_Test.webp"
+                                    alt="CR Developer"
+                                    width="600px"
+                                    height="294px"
+                                />
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <!-- Intro Container -->
-            <div class="container mb-5" id="intro">
-                <section class="intro">
-                    <!-- .row -->
-                    <div class="row">
+
+            </section>
+
+            <!-- Content Section -->
+            <section
+                class="content-section y-centered fill-dark"
+                id="content-section"
+            >
+                <div class="container" id="intro">
+                    <div class="row p-4">
                         <!-- Image column on the right for large screens, top for small screens -->
-                        <div class="col-md-4 order-md-last">
+                        <div
+                            class="col-lg-3 offset-lg-1 order-lg-last center-image"
+                        >
                             <img
-                                class="img-fluid"
+                                class="intro-img img-fluid"
                                 src="assets/img/craig.png"
                                 alt="A profile photo of Craig Reimer"
                                 height="350px"
@@ -98,8 +107,10 @@
                             />
                         </div>
                         <!-- Text content column -->
-                        <div class="col-md-8 mt-auto mb-auto">
-                            <h2>Intro</h2>
+                        <div
+                            class="col-lg-6 offset-lg-1 my-auto p-4 my-rounded fill-light text-dark"
+                        >
+                            <h2 class="text-main">Hello!</h2>
                             <p>
                                 My name is Craig Reimer and I am an
                                 undergraduate student at
@@ -110,7 +121,6 @@
                                 passionate about learning new things and
                                 creating apps that empower people.
                             </p>
-
                             <p>
                                 I am currently looking for a summer 2024
                                 internship where I can sharpen my skills, deepen
@@ -119,127 +129,100 @@
                             </p>
                         </div>
                     </div>
-                    <!-- /.row -->
-                </section>
-            </div>
-            <!-- /.container -->
+                </div>
+            </section>
 
-            <!-- About Me Container-->
-            <div class="container mb-5 mt-auto" id="aboutMe">
-                <section class="aboutMe">
-                    <!-- .row -->
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h2>About Me</h2>
-                        </div>
-                    </div>
-                    <!-- /.row -->
-                    <!-- .row -->
-                    <div class="row mb-3">
-                        <div class="col-md-12">
-                            <input
-                                type="button"
-                                class="btn btn-outline-secondary"
-                                value="Short Bio"
-                                id="shortBio"
-                            />
-                            <input
-                                type="button"
-                                class="btn btn-outline-secondary"
-                                value="Long Bio"
-                                id="longBio"
-                            />
-                        </div>
-                    </div>
-                    <!-- /.row -->
-                    <!-- .row -->
-                    <div class="row">
-                        <div class="col-md-12 mt-auto pt-2" id="bio"></div>
-                    </div>
-                    <!-- /.row -->
-                </section>
-            </div>
-
-            <!-- Exposure Container-->
-            <div class="container mb-5 mt-auto" id="exposure">
-                <section class="exposure">
-                    <!-- .row -->
-                    <div class="row">
-                        <div class="col-md-12 mb-2">
-                            <h2>Exposure</h2>
-                        </div>
-                    </div>
-                    <!-- /.row -->
-                    <!-- .row -->
+            <!-- About Section-->
+            <section class="about-section y-centered fill-light">
+                <div class="container" id="aboutMe">
                     <div
-                        class="row flex-nowrap overflow-auto"
-                        id="techStack"
-                    ></div>
-                    <!-- /.row -->
-                </section>
-            </div>
-            <!-- /.container -->
-
-            <!-- Connect Container -->
-            <div class="container mb-5 mt-auto" id="connect">
-                <section class="connect">
-                    <!-- .row -->
-                    <div class="row">
-                        <div class="col-md-12 mb-2">
-                            <h2>Connect With Me</h2>
+                        class="row mx-2 p-4 my-rounded align-items-center fill-light-accent"
+                    >
+                        <div class="col-lg-3 p-2">
+                            <div class="p-2">
+                                <h2 class="mb-2 text-light">About Me</h2>
+                                <input
+                                    type="button"
+                                    class="btn btn-outline-secondary mr-2"
+                                    value="Short Bio"
+                                    id="shortBio"
+                                />
+                                <input
+                                    type="button"
+                                    class="btn btn-outline-secondary"
+                                    value="Long Bio"
+                                    id="longBio"
+                                />
+                            </div>
                         </div>
-                    </div>
-                    <!-- /.row -->
-                    <!-- .row -->
-                    <div
-                        class="row flex-nowrap overflow-auto"
-                        id="socials"
-                    ></div>
-                    <!-- /.row -->
-                </section>
-            </div>
-            <!-- /.container -->
-
-            <!-- .container -->
-            <div class="container">
-                <!-- .row -->
-                <div class="row">
-                    <div class="col-md-12 centered">
-                        <a href="#">Back to Top</a>
+                        <div class="col-lg-7 offset-lg-1 p-2">
+                            <div id="bio" class="text-light my-4">
+                                <p>Choose your adventure!</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <!-- /.row -->
+            </section>
+
+            <!-- Exposure Section -->
+            <section class="exposure-section y-centered">
+                <div class="container px-3" id="exposure">
+                    <div class="row my-4 mx-auto py-4">
+                        <div class="col-lg-4 y-centered mb-2">
+                            <h2 class="text-light">Exposure</h2>
+                        </div>
+                        <div class="col-lg-8">
+                            <div
+                                class="row px-1 justify-content-evenly"
+                                id="techStack"
+                            ></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Connect Section -->
+            <section class="connect-section y-centered fill-light">
+                <div class="container px-4" id="connect">
+                    <div class="row mx-2">
+                        <div
+                            class="col-lg-6 offset-lg-3 p-4 fill-light-accent my-rounded"
+                        >
+                            <h2 class="text-light">Connect With Me</h2>
+                            <div
+                                class="row px-1 justify-content-evenly"
+                                id="socials"
+                            ></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="fill-dark">
+                <div class="container fill-dark">
+                    <div class="row">
+                        <div class="col-12 my-4">
+                            <a href="#">Back to Top</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <!-- /.container -->
         </main>
 
         <!-- Footer -->
-        <footer class="footer py-3 bg-light text-dark">
-            <div class="container">
-                <!-- .row -->
-                <div class="row">
-                    <div class="col-md-12 centered">
-                        <img
-                            id="logo"
-                            src="assets/img/craigLion.webp"
-                            alt="a stone porch lion wearing sunglasses, a hat, and a scarf"
-                            width="100px"
-                            height="100px"
-                        />
-                    </div>
-                    <div class="col-md-9"></div>
-                </div>
-                <!-- /.row -->
-                <!-- .row -->
-                <div class="row">
-                    <div class="col-md-12 centered">
-                        <p class="mt-2">
+        <footer class="footer fill-dark">
+            <div class="container my-4">
+                <div class="row my-4">
+                    <div class="col-md-12 my-4">
+                        <p class="text-light">
                             <small>&copy;2023 Craig Reimer</small>
                         </p>
                     </div>
                 </div>
-                <!-- /.row -->
             </div>
         </footer>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script type="module" src="assets/js/scripts.js" defer></script>
     </body>
 </html>
