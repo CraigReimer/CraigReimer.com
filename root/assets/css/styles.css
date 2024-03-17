@@ -16,6 +16,7 @@
 body {
     min-width: 350px;
     max-height: 130vh;
+    z-index: 1;
     overflow-x: hidden;
 }
 section {
@@ -94,7 +95,7 @@ h1 {
 /*  Section Styles  */
 
 .landing-section {
-    height: 100vh;
+    min-height: 100vh;
     width: 100vw;
     position: relative;
     top: 0;
@@ -190,7 +191,6 @@ a:hover {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(79,182,188, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
-
 /*  Footer Styling  */
 
 footer {
@@ -201,6 +201,7 @@ footer {
 
 /*  Content Section  */
 .content-section {
+    min-height: 100vh;
     position: absolute;
     top: 0;
     left: 0;
