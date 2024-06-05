@@ -1,7 +1,7 @@
 /*
  * Author: Craig Reimer
  * First Published: 11/15/2023
- * Last Updated: 6/4/2024
+ * Last Updated: 6/5/2024
  * Purpose: Main JS file for the website CraigReimer.com
  */
 
