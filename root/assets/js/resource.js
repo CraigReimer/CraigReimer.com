@@ -1,14 +1,14 @@
 const shortBioParagraphs = [
-    "I am passionate about learning new things and creating apps that empower people.",
+    "I am passionate about learning new things, solving puzzles, and creating solutions that empower people. I am a quick learner, a critical thinker, and a team player.",
     "My first app was a simple punchclock that I still use to log my hours while working from home. Take a peek in the Projects section, or check it out more in-depth on my Github.",
     "This website is hosted on Amazon S3. It is a work in progress and always will be, just like me.",
 ];
 
 const longBioParagraphs = [
-    "I am a second year undergraduate student at Fox Valley Technical College in Appleton, Wisconsin. I am pursuing an AAS in Software Development. I am passionate about learning new things and creating apps that empower people.",
     "I originally started learning HTML and wrote my first webpage while in highschool, but left it behind when I joined the Army. I held a latent interest in Computer Science for a number of years while pursuing other interests, and in 2022 made the decision to return to school and restart my coding and Software Development journey.",
+    "I am proficient in C# and JavaScript. I am also familiar with HTML, CSS, and SQL. I have experience with Git, GitHub, and Visual Studio/ VS Code. I am currently learning React.",
     "This website is hosted on Amazon S3. It is a work in progress and always will be, just like me. As I gain new skills, I will work to employ, hone, or showcase them here.",
-    "My first app was a simple punchclock that I still use to log my hours while working from home. It is a C# WinForms App and uses the .NET Framework. The practical experience of programming this app helped solidify my understanding of OOP and N-tier architecture, and gave me the great satisfaction of solving my own needs through software. Take a peek in the Projects section, or check it out more in-depth on my Github.",
+    "My first app was a simple punchclock that I still use to log my hours while working from home. The practical experience of programming this app helped solidify my understanding of OOP and N-tier architecture, and gave me the great satisfaction of solving my own needs through software. Take a peek in the Projects section, or check it out more in-depth on my Github.",
     "Thank you for taking the time to read through!",
 ];
 
