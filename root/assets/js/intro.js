@@ -39,7 +39,7 @@ function loadIntroSection() {
     // Create paragraphs
     const p1 = document.createElement("p");
     p1.innerHTML =
-        'My name is Craig Reimer and I am an undergraduate student at <a href="https://www.fvtc.edu/">Fox Valley Technical College</a> pursuing an AAS in Software Development. I am passionate about learning new things and creating apps that empower people.';
+        'My name is Craig Reimer, and I am currently pursuing an Associate of Applied Science in Software Development at  <a href="https://www.fvtc.edu/">Fox Valley Technical College</a>. I am on track to complete my degree in December 2024.';
 
     const p2 = document.createElement("p");
     p2.textContent =

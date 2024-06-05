@@ -17,6 +17,7 @@ body {
     min-width: 350px;
     overflow-x: hidden;
 }
+
 section {
     min-width: 350px;
     margin: 0;
@@ -119,24 +120,24 @@ h3 {
     width: 100vw;
     position: relative;
     top: 0;
-    z-index: 10;
-    animation: pushToBackground 1s forwards;
+    z-index: 1;
+    opacity: 1;
+    transition: opacity 1s ease-out;
 }
 
 .content-section {
-    min-height: 92vh;
-    position: relative;
-    top: 0;
+    min-height: 95vh;
+    width: 100vw;
+    position: absolute;
+    top: -100vh;
     left: 0;
     right: 0;
-    bottom: 0;
-    z-index: 10;
     opacity: 0;
-    transform: translateY(40px);
-    animation: fadeInAnimation 2.25s ease-out 0.75s forwards;
+    z-index: 10;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    animation: slideInContent 2.5s ease-out 0.5s forwards;
 }
 
 .content-row {
@@ -145,7 +146,13 @@ h3 {
 
 footer {
     font-size: 0.65em;
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    left: -100vw;
     z-index: 10;
+    opacity: 0;
+    animation: slideInFooter 1.8s ease-out 1s forwards;
 }
 
 .blankRow {
@@ -209,10 +216,9 @@ a:hover {
 
 /*  Animation Keyframes  */
 
-@keyframes fadeInAnimation {
+@keyframes slideInContent {
     0% {
         opacity: 0;
-        transform: translateY(40px);
     }
     25% {
         opacity: 0.2;
@@ -222,15 +228,22 @@ a:hover {
     }
     100% {
         opacity: 1;
-        transform: translateY(0);
+        transform: translateY(100vh);
     }
 }
 
-@keyframes pushToBackground {
+@keyframes slideInFooter {
     0% {
-        z-index: 1;
+        opacity: 0;
+    }
+    25% {
+        opacity: 0.2;
+    }
+    50% {
+        opacity: 0.4;
     }
     100% {
-        z-index: -10;
+        opacity: 1;
+        transform: translateX(100vw);
     }
 }
