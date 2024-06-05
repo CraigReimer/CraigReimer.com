@@ -49,21 +49,21 @@
                 >
                     <ul class="navbar-nav ml-auto px-4 fill-dark my-rounded">
                         <li class="nav-item">
-                            <a class="nav-link" href="#intro">Intro</a>
+                            <a class="nav-link" id="loadIntro">Intro</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#aboutMe">About</a>
+                            <a class="nav-link" id="loadAboutMe">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#experience"
+                            <a class="nav-link" id="loadExperience"
                                 >Experience</a
                             >
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#projects">Projects</a>
+                            <a class="nav-link" id="loadProjects">Projects</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#connect">Connect</a>
+                            <a class="nav-link" id="loadConnect">Connect</a>
                         </li>
                     </ul>
                 </div>
@@ -92,206 +92,14 @@
             </section>
 
             <!-- Content Section -->
-            <section
-                class="content-section y-centered fill-dark"
-                id="content-section"
-            >
-                <div class="container" id="intro">
-                    <div class="row p-4">
-                        <!-- Image column on the right for large screens, top for small screens -->
-                        <div
-                            class="col-lg-3 offset-lg-1 order-lg-last center-image"
-                        >
-                            <img
-                                class="intro-img img-fluid"
-                                src="assets/img/craig.png"
-                                alt="A profile photo of Craig Reimer"
-                                height="350px"
-                                width="350px"
-                            />
-                        </div>
-                        <!-- Text content column -->
-                        <div
-                            class="col-lg-6 offset-lg-1 my-auto p-4 my-rounded fill-dark text-light outline"
-                        >
-                            <h2 class="text-light">Hello!</h2>
-                            <p>
-                                My name is Craig Reimer and I am an
-                                undergraduate student at
-                                <a href="https://www.fvtc.edu/">
-                                    Fox Valley Technical College
-                                </a>
-                                pursuing an AAS in Software Development. I am
-                                passionate about learning new things and
-                                creating apps that empower people.
-                            </p>
-                            <p>
-                                I am currently looking for my first internship
-                                where I can sharpen my skills, deepen my
-                                understanding, and gain real-world experience
-                                working with a team.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- About Section-->
-            <section class="about-section y-centered fill-dark">
-                <div class="container" id="aboutMe">
-                    <div
-                        class="row mx-2 p-4 my-rounded align-items-center outline"
-                    >
-                        <div class="col-lg-4 p-2">
-                            <div class="p-2">
-                                <h2 class="mb-2 text-light">About Me</h2>
-                                <input
-                                    type="button"
-                                    class="btn btn-outline-secondary mr-2"
-                                    value="Short Bio"
-                                    id="shortBio"
-                                />
-                                <input
-                                    type="button"
-                                    class="btn btn-outline-secondary"
-                                    value="Long Bio"
-                                    id="longBio"
-                                />
-                            </div>
-                        </div>
-
-                        <div class="col-lg-8 p-2">
-                            <div id="bio" class="text-light my-4">
-                                <p>Customize your experience!</p>
-                                <p>Choose an option to get started.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Experience Section -->
-            <section class="experience-section y-centered fill-dark">
-                <div class="container px-3" id="experience">
-                    <div class="row my-4 mx-auto py-4 outline">
-                        <div class="col-lg-4 y-centered mb-2 p-2 py-4">
-                            <div class="p-2">
-                                <h2 class="text-light p-2">Experience</h2>
-                                <input
-                                    type="button"
-                                    class="btn btn-outline-secondary m-2"
-                                    value="Front End"
-                                    id="frontEnd"
-                                />
-                                <input
-                                    type="button"
-                                    class="btn btn-outline-secondary m-2"
-                                    value="Back End"
-                                    id="backEnd"
-                                />
-                                <input
-                                    type="button"
-                                    class="btn btn-outline-secondary m-2"
-                                    value="Mobile"
-                                    id="mobile"
-                                />
-                                <input
-                                    type="button"
-                                    class="btn btn-outline-secondary m-2"
-                                    value="Database"
-                                    id="db"
-                                />
-                                <input
-                                    type="button"
-                                    class="btn btn-outline-secondary m-2"
-                                    value="DevOps"
-                                    id="devOps"
-                                />
-                                <input
-                                    type="button"
-                                    class="btn btn-outline-secondary m-2"
-                                    value="All"
-                                    id="all"
-                                />
-                            </div>
-                        </div>
-
-                        <div class="col-lg-8">
-                            <div
-                                class="row px-1 justify-content-evenly"
-                                id="techStack"
-                            ></div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Projects Section -->
-            <section class="projects-section y-centered fill-dark">
-                <div class="container px-3 mb-1" id="projects">
-                    <div class="row my-4 mx-auto py-4 outline">
-                        <div class="col-lg-12 px-4">
-                            <h2 class="text-light px-2">Projects</h2>
-                        </div>
-                        <div class="col-lg-4 y-centered mb-2 p-2 text-light">
-                            <div>
-                                <h3 class="p-4">Time Clock</h3>
-                                <p class="pl-4">
-                                    Time Clock is a simple app. The user is able
-                                    to create, modify, and delete Time Entries
-                                    that exist within an Entry Log. An Entry Log
-                                    may be created, updated, and saved within
-                                    the app. The Entry Log is serialized into
-                                    JSON for persistence.
-                                </p>
-                                <p class="pl-4">
-                                    <a
-                                        href="https://github.com/CraigReimer/TimeClock"
-                                        >Github</a
-                                    >
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <img class="img-fluid" src="assets/img/clock.png" />
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Connect Section -->
-            <section class="connect-section y-centered fill-dark">
-                <div class="container px-4" id="connect">
-                    <div class="row my-4 mx-auto py-4 outline">
-                        <div class="col-lg-4 y-centered mb-2 p-2">
-                            <h2 class="text-light p-2">Connect With Me</h2>
-                        </div>
-
-                        <div class="col-lg-8">
-                            <div
-                                class="row px-1 justify-content-evenly"
-                                id="socials"
-                            ></div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <div class="fill-dark">
-                <div class="container fill-dark">
-                    <div class="row">
-                        <div class="col-12 my-4">
-                            <a href="#">Back to Top</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <section class="content-section fill-dark" id="root"></section>
         </main>
 
         <!-- Footer -->
-        <footer class="footer fill-dark">
-            <div class="container my-4">
-                <div class="row my-4">
-                    <div class="col-md-12 my-4">
+        <footer class="footer fill-dark mt-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
                         <p class="text-light">
                             <small>&copy;2023 Craig Reimer</small>
                         </p>
@@ -302,6 +110,6 @@
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-        <script type="module" src="assets/js/scripts.js" defer></script>
+        <script type="module" src="assets/js/index.js" defer></script>
     </body>
 </html>

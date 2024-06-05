@@ -1,7 +1,7 @@
 /*
 * Author: Craig Reimer
 * First Published: 11/15/2023
-* Last Updated: 3/15/2024
+* Last Updated: 6/4/2024
 * Purpose: This is a developer portfolio site for the author.
 */
 
@@ -15,8 +15,6 @@
 
 body {
     min-width: 350px;
-    max-height: 130vh;
-    z-index: 1;
     overflow-x: hidden;
 }
 section {
@@ -25,21 +23,33 @@ section {
     padding: 0;
 }
 
+figcaption {
+    font-size: 0.75em;
+}
+
 .navbar {
     height: 5%;
     z-index: 99;
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 4em;
     margin-top: 1em;
     margin-bottom: 1em;
 }
 
+h2 {
+    font-size: 2.25em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
 .container {
-    max-width: 1100px;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    max-width: 1000px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
 }
 
 .outline {
@@ -68,6 +78,11 @@ h1 {
     align-items: center;
 }
 
+.project-img {
+    max-height: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
 #experience img,
 #connect img {
     width: 50px;
@@ -88,8 +103,7 @@ h1 {
     min-width: 100px;
     max-width: 100px;
     height: 145px;
-    margin: 0.75em;
-
+    margin: 0.65em;
     text-align: center;
     align-items: center;
 }
@@ -109,25 +123,33 @@ h1 {
     animation: pushToBackground 1s forwards;
 }
 
-.about-section {
-    min-height: 70vh;
-    background-color: #212334;
+.content-section {
+    min-height: 92vh;
     position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+    opacity: 0;
+    transform: translateY(40px);
+    animation: fadeInAnimation 2.25s ease-out 0.75s forwards;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.content-row {
+    min-height: 756px;
+}
+
+footer {
+    font-size: 0.65em;
     z-index: 10;
 }
 
-.experience-section {
-    min-height: 70vh;
-    background-color: #212334;
-    position: relative;
-    z-index: 10;
-}
-
-.connect-section {
-    min-height: 50vh;
-    background-color: #212334;
-    position: relative;
-    z-index: 10;
+.blankRow {
+    height: 5vh;
 }
 
 /*  Color Palette Styling  */
@@ -144,13 +166,13 @@ h1 {
     color: #e7e6c5;
 }
 
-.text-dark {
-    color: #212334;
+/*  Button Styling  */
+.nav-item > a {
+    cursor: pointer;
 }
 
-.border-accent {
-    border-style: dotted;
-    border-color: #c59aa1;
+.expBtn {
+    width: 100px;
 }
 
 .btn-outline-secondary {
@@ -185,27 +207,7 @@ a:hover {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(79,182,188, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
-/*  Footer Styling  */
-
-footer {
-    font-size: 0.75em;
-    display: flex;
-    flex-direction: column;
-}
-
-/*  Content Section  */
-.content-section {
-    min-height: 100vh;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 10;
-    opacity: 0;
-    transform: translateY(40px);
-    animation: fadeInAnimation 2.25s ease-out 0.75s forwards;
-}
+/*  Animation Keyframes  */
 
 @keyframes fadeInAnimation {
     0% {
