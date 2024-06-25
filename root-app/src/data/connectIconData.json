@@ -1,0 +1,14 @@
+[
+    {
+        "href": "https://github.com/craigreimer",
+        "imgSrc": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg",
+        "imgAlt": "GitHub Logo",
+        "text": "GitHub"
+    },
+    {
+        "href": "https://www.linkedin.com/in/craig-m-reimer/",
+        "imgSrc": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg",
+        "imgAlt": "LinkedIn Logo",
+        "text": "LinkedIn"
+    }
+]

@@ -1,0 +1,149 @@
+[
+    {
+        "href": "https://aws.amazon.com/",
+        "imgSrc": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
+        "imgAlt": "Amazon Web Services Logo",
+        "text": "AWS",
+        "categories": ["All", "Dev Ops"]
+    },
+    {
+        "href": "https://azure.microsoft.com/en-us/products/devops/",
+        "imgSrc": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuredevops/azuredevops-original.svg",
+        "imgAlt": "Azure DevOps Logo",
+        "text": "Azure DevOps",
+        "categories": ["All", "Dev Ops"]
+    },
+    {
+        "href": "https://bitbucket.org/",
+        "imgSrc": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bitbucket/bitbucket-original-wordmark.svg",
+        "imgAlt": "Bitbucket Logo",
+        "text": "Bitbucket",
+        "categories": ["All", "Dev Ops"]
+    },
+    {
+        "href": "https://getbootstrap.com/",
+        "imgSrc": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg",
+        "imgAlt": "Bootstrap Logo",
+        "text": "Bootstrap",
+        "categories": ["All", "Front End", "Web"]
+    },
+    {
+        "href": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+        "imgSrc": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg",
+        "imgAlt": "CSS3 Logo",
+        "text": "CSS3",
+        "categories": ["All", "Front End", "Web"]
+    },
+    {
+        "href": "https://learn.microsoft.com/en-us/cpp/cpp/?view=msvc-170",
+        "imgSrc": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg",
+        "imgAlt": "C++ Logo",
+        "text": "C++",
+        "categories": ["All", "Back End"]
+    },
+    {
+        "href": "https://learn.microsoft.com/en-us/dotnet/csharp/",
+        "imgSrc": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg",
+        "imgAlt": "C# Logo",
+        "text": "C#",
+        "categories": ["All", "Back End"]
+    },
+    {
+        "href": "https://git-scm.com/",
+        "imgSrc": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg",
+        "imgAlt": "Git Logo",
+        "text": "Git",
+        "categories": ["All", "Dev Ops"]
+    },
+    {
+        "href": "https://github.com/craigreimer",
+        "imgSrc": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg",
+        "imgAlt": "GitHub Logo",
+        "text": "GitHub",
+        "categories": ["All", "Dev Ops"]
+    },
+    {
+        "href": "https://docs.github.com/en/actions",
+        "imgSrc": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubactions/githubactions-original.svg",
+        "imgAlt": "Github Actions Logo",
+        "text": "Github Actions",
+        "categories": ["All", "Dev Ops"]
+    },
+    {
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/HTML5",
+        "imgSrc": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",
+        "imgAlt": "HTML5 Logo",
+        "text": "HTML5",
+        "categories": ["All", "Front End", "Web"]
+    },
+    {
+        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "imgSrc": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
+        "imgAlt": "JavaScript Logo",
+        "text": "JavaScript",
+        "categories": ["All", "Front End", "Web"]
+    },
+    {
+        "href": "https://www.mongodb.com/",
+        "imgSrc": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg",
+        "imgAlt": "MongoDB Logo",
+        "text": "MongoDB",
+        "categories": ["All", "Back End", "Database"]
+    },
+    {
+        "href": "https://dev.mysql.com/",
+        "imgSrc": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg",
+        "imgAlt": "MySQL Logo",
+        "text": "MySQL",
+        "categories": ["All", "Back End", "Database"]
+    },
+    {
+        "href": "https://dotnet.microsoft.com/en-us/",
+        "imgSrc": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dot-net/dot-net-original-wordmark.svg",
+        "imgAlt": ".NET Logo",
+        "text": ".NET",
+        "categories": ["All", "Back End"]
+    },
+    {
+        "href": "https://www.php.net/",
+        "imgSrc": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg",
+        "imgAlt": "PHP Logo",
+        "text": "PHP",
+        "categories": ["All", "Back End", "Web"]
+    },
+    {
+        "href": "https://react.dev/",
+        "imgSrc": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
+        "imgAlt": "React Logo",
+        "text": "React",
+        "categories": ["All", "Front End", "Web"]
+    },
+    {
+        "href": "https://www.microsoft.com/en-us/sql-server/",
+        "imgSrc": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-original.svg",
+        "imgAlt": "SQL Server Logo",
+        "text": "SQL Server",
+        "categories": ["All", "Back End", "Database"]
+    },
+    {
+        "href": "https://www.typescriptlang.org/",
+        "imgSrc": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
+        "imgAlt": "TypeScript Logo",
+        "text": "TypeScript",
+        "categories": ["All", "Front End", "Web"]
+    },
+    {
+        "href": "https://dotnet.microsoft.com/en-us/apps/xamarin",
+        "imgSrc": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/xamarin/xamarin-original.svg",
+        "imgAlt": "Xamarin Logo",
+        "text": "Xamarin",
+        "categories": ["All", "Mobile"]
+    },
+    {
+        "href": "https://developer.apple.com/xcode/",
+        "imgSrc": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/xcode/xcode-original.svg",
+        "imgAlt": "Xcode Logo",
+        "text": "Xcode",
+        "categories": ["All", "Mobile"]
+    }
+]

@@ -1,0 +1,156 @@
+body {
+    min-width: 350px;
+    overflow-x: hidden;
+}
+
+main {
+    padding-top: 45px;
+    min-height: 93vh;
+}
+
+section {
+    min-width: 350px;
+    color: #e7e6c5;
+}
+
+.container {
+    max-width: 1000px;
+}
+
+.row {
+    padding: 0.75em 0.35em;
+}
+
+.content-section {
+    min-width: 60vw;
+    max-width: 95vw;
+    padding: 1em 0.25em;
+}
+
+.content-row {
+    min-height: 40vh;
+}
+
+/*  NavBar Styling  */
+
+.navbar {
+    height: 5%;
+}
+
+#navbarNav {
+    max-width: fit-content;
+    padding: 0 0.25em;
+    margin-right: 1em;
+}
+
+.nav-link,
+a {
+    color: #4fb6bc;
+}
+
+.nav-link:hover,
+a:hover {
+    color: #c59aa1;
+}
+
+/*  Places a line under the active link  */
+.nav-item.active .nav-link::after {
+    content: "";
+    display: block;
+    height: 2px;
+    background-color: #c59aa1;
+    width: 100%;
+}
+
+.btn-outline-secondary {
+    color: #4fb6bc;
+    border-color: #4fb6bc;
+}
+
+.btn-outline-secondary:hover {
+    color: #fff;
+    background-color: #c59aa1;
+    border-color: #c59aa1;
+}
+
+.btn-outline-secondary:not(:disabled):not(.disabled).active,
+.btn-outline-secondary:not(:disabled):not(.disabled):active,
+.show > .btn-outline-secondary.dropdown-toggle {
+    color: #fff;
+    background-color: #c59aa1;
+    border-color: #c59aa1;
+}
+
+/* Hamburger Icon Color Styling */
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(79,182,188, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+h1 {
+    font-size: 3em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+h2 {
+    font-size: 2.25em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+.my-rounded {
+    border-radius: 10px;
+}
+
+.outline {
+    border-radius: 10px;
+    outline: #4b4b65 1px solid;
+    background: linear-gradient(170deg, #4b4b65 30%, #212334 75%);
+}
+
+.intro-img {
+    border-radius: 50%;
+    min-width: 350px;
+    min-height: 350px;
+    padding: 0 2em;
+    margin: 1.5em;
+    object-fit: cover;
+}
+
+.icon-card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #c9c9e9;
+    color: #212334;
+    transition: transform 0.3s ease-in-out;
+    min-width: 98px;
+    max-width: 98px;
+    height: 145px;
+    margin: 0.65em;
+    text-align: center;
+    align-items: center;
+}
+
+.icon-card img {
+    width: 50px;
+    height: 50px;
+    margin: 1em;
+}
+
+.icon-card:hover {
+    transform: translateY(15px);
+}
+
+.expBtn {
+    width: 100px;
+}
+
+.footer {
+    max-height: 5vh;
+}
+
+.fill-dark {
+    background-color: #212334;
+}
