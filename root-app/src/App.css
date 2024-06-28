@@ -14,21 +14,22 @@ section {
 }
 
 .container {
-    max-width: 1000px;
-}
-
-.row {
-    padding: 0.75em 0.35em;
+    max-width: 1100px;
+    height: 100%;
+    max-height: 85vh;
+    overflow-y: auto;
 }
 
 .content-section {
     min-width: 60vw;
     max-width: 95vw;
     padding: 1em 0.25em;
+    min-height: 70vh;
 }
 
 .content-row {
-    min-height: 40vh;
+    min-height: 60vh;
+    padding: 1.5em 0.25em;
 }
 
 /*  NavBar Styling  */
@@ -101,11 +102,11 @@ h3 {
 }
 
 .my-rounded {
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .outline {
-    border-radius: 10px;
+    border-radius: 20px;
     outline: #4b4b65 1px solid;
     background: linear-gradient(170deg, #4b4b65 30%, #212334 75%);
 }
@@ -120,23 +121,20 @@ h3 {
 }
 
 .icon-card {
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background-color: #c9c9e9;
     color: #212334;
     transition: transform 0.3s ease-in-out;
-    min-width: 98px;
-    max-width: 98px;
-    height: 145px;
-    margin: 0.65em;
-    text-align: center;
-    align-items: center;
+    max-width: 300px;
+    max-height: 70px;
+    margin: 0 0.75em;
 }
 
 .icon-card img {
-    width: 50px;
-    height: 50px;
-    margin: 1em;
+    width: 40px;
+    height: 40px;
+    margin: 0.25em;
 }
 
 .icon-card:hover {

@@ -4,7 +4,7 @@ function Intro() {
             <div className="col-lg-3 order-lg-last d-flex justify-content-center justify-content-lg-start">
                 <img
                     className="intro-img img-fluid"
-                    src="./public/craig.png"
+                    src="./craig.png"
                     alt="A profile photo of Craig Reimer"
                     height="350"
                     width="350"

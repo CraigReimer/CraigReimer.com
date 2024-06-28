@@ -3,16 +3,16 @@ import { useState } from "react";
 interface ButtonProps {
     style: string;
     myClasses: string;
-    // onClick: () => void;
+    onClick: () => void;
     children: string;
 }
 
-function Button({ style, myClasses, children }: ButtonProps) {
+function Button({ style, myClasses, children, onClick }: ButtonProps) {
     const [selected, setSelected] = useState(false);
 
     const handleClick = () => {
         setSelected(!selected);
-        // onClick();
+        onClick();
     };
 
     return (
